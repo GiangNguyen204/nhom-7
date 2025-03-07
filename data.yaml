@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['bus', 'car', 'license plate', 'motorbike']
+
+roboflow:
+  workspace: giang-nguyen-9v1ic
+  project: biensoxe-pzea3
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/giang-nguyen-9v1ic/biensoxe-pzea3/dataset/2
